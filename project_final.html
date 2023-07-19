@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="CSS/projectstyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    </head>
+    <body>
+<div class="main">
+        <h1 class="heading">Shakti Gym Town
+          <div class="account"><a href="login.html"><img src="images/account.png"></a></div>
+          <div id="navigation" class="navigation">
+            <div id="menu" onclick="clickMenu()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
+          </div></h1>
+            <ul class="navi" id="navi">
+                <li><a href="#">Home</a></li>
+                <li><a href="AboutUs1.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="map.html">Map</a></li>
+                <li><a href="#pog">Programs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        <script>
+          function clickMenu() {
+            document.getElementById("menu").classList.toggle("icon");
+            document.getElementById("navi").classList.toggle("navi2");
+            var nav = document.getElementById("nav");
+    nav.style.display = nav.style.display === "block" ? "none" : "block";
+          }
+        </script>
+        
+        <header class="image group">
+            <nav class="site-nav" bgcolor="red">
+                <ul class="group">
+                    <li><a href="">Home</a></li>
+                    <li><a href="AboutUs1.html">About Us</a></li>
+                    <li><a href="map.html">Map</a></li>
+                    <li><a id="change" href="AboutUs1.html"><img src="images/gymlogo.png" alt="logo" width="100px" height="100px"></a></li>
+                    <li><a href="#pog">Programs</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="message">
+          <p>Start</p>
+          <span class="change-color"><p>Training</p></span>
+          <p>Today</p>
+        </div>
+        <div class="message1">
+          <p>"Push Your Limit and Get Stronger"</p>
+        </div>
+
+        <div class="container group" id="contact">
+        <div class="location">
+          <p><img class="center" src="images/location_logo.png" alt="logo">2nd floor Trimukha Ganapathi complex, Sirsi Banavasi road, Sirsi(U.K) 581401</p>
+        </div>
+        <a href="login.html">
+        <div class="join-now">
+          <p>Join Now</p>
+        </div>
+        </a>
+        <div class="call">
+          <p><img class="center" src="images/phone.png" alt="logo">+918197875041 |+918095167641</p>
+        </div>
+        </div>
+        <br>
+        <br>
+
+        <div class="programs" id="pog">
+          <h3>Programs</h3>
+          <ol class="programs1">
+            <li>Weight Training</li>
+            <li>Strength Training</li>
+            <li>Athletic Physic Training</li>
+            <li>HIIT</li>
+            <li>CrossFit</li>
+          </ol>
+        </div>
+
+        <div class="extra">
+            <h3 id="services">Services</h3><br>
+            <table>
+                <tr>
+            <td><img src="images/Nutrition.png" alt="nutrition"></td>
+            <td>Nutrition Plane</td>
+            </tr>
+            <tr>
+            <td><img src="images/Demble.png" alt="demble"></td>
+            <td>Personal Training</td>
+            </tr>
+            <tr>
+            <td><img src="images/Equipment.png" alt="equipment"></td>
+            <td>Modern Equipment</td>
+            </tr>
+            <tr>
+            <td><img src="images/Heart.png" alt="heart"></td>
+            <td>Healthy Environment</td>
+            </tr>
+            </table>
+        </div>
+        </div>
+        <footer>
+            <p style="color: white; font-size: 30px; margin-bottom: 2px; padding-top: 4px;">Follow Us On</p>
+            <a class="one" href="https://www.facebook.com/profile.php?id=100086397852274" target="_blank"><img src="images/facebook_logo.png"></a>
+            <a class="two" href="https://www.instagram.com/shakti_gym_town/" target="_blank"><img src="images/instagram_logo.png"></a>
+            <a href="https://www.youtube.com/@shaktigymtown2022" target="_blank"><img src="images/youtube_logo.png"></a>
+            <br>
+            <nav class="last">
+                <ul class="group">
+                    <li><a href="" >Home</a></li>
+                    <li><a href="AboutUs1.html" >About Us</a></li>
+                    <li><a href="map.html" >Map</a></li>
+                    <li><a href="#pog" >Programs</a></li>
+                    <li><a href="gallery.html" >Gallery</a></li>
+                    <li><a href="#contact" >Contact</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
