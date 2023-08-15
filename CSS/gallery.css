@@ -41,7 +41,7 @@ footer{
     margin-top: 10px;
     text-align: center;
     align-items: center;
-    margin-left: 550px;
+    margin-left: 500px;
 }
 .last ul{
     margin: 0;
@@ -113,7 +113,7 @@ body{
 #menu{
   width: 30px;
   height: 30px;
-  margin: 30px;
+  margin: 20px;
   cursor: pointer;
   z-index: 100;
 }
